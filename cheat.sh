@@ -4,4 +4,12 @@
 
 ### display a cheatsheet
 
-less $CHEAT_REPO/$1.md 
+readonly cheatsheet=$1.md 
+
+if [ -e $CHEAT_REPO/$cheatsheet ]; then
+  less $CHEAT_REPO/$cheatsheet
+elif ( ls -1 $CHEAT_REPO | grep -qe ${cheatsheet%.md} ); then
+  echo 'Do you mean' `ls -1 $CHEAT_REPO | grep` '?'
+else
+  cheat-ed ${cheatsheet%.md}
+fi
