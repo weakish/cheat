@@ -5,4 +5,4 @@
 ### grep for cheatsheet
 
 cd $CHEAT_REPO
-git grep $1
+git grep "$@"
