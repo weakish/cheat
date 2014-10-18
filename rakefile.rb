@@ -21,3 +21,5 @@ task :install do
 
   puts "Please add `export CHEAT_REPO=\"#{cheatsheet_repo}\"` in shell init file, e.g. ~/.bashrc"  
 end
+
+task :default => [:install]

@@ -5,4 +5,4 @@
 ### synchronize with remote repo
 
 cd $CHEAT_REPO
-git pull && push
+git pull && git push
