@@ -7,5 +7,4 @@
 cd $CHEAT_REPO
 editor $1.md
 git add $1.md
-git commit
-
+git commit -m "Creat or update $1"
