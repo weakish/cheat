@@ -3,8 +3,9 @@ cheat
 
 A [cheat.rb][] clone in shell (use git repo to store cheatsheets).
 
-[cheat.rb]: https://github.com/defunkt/cheat
+[cheat.rb]: http://cheat.errtheblog.com
 
+It uses git repository instead of central website to store cheat-sheets.
 
 Install
 -------
@@ -20,13 +21,21 @@ Usage
 
     cheat cheat
 
+Or [view it online](https://github.com/weakish/cheat/wiki/cheat).
 
-Cheatsheets
+Cheat-sheets
 ----------
 
-All cheatsheets are stored in this git-based [wiki](https://github.com/weakish/cheat/wiki) hosted on github too.
+All cheat-sheets are stored in this git-based [wiki](https://github.com/weakish/cheat/wiki) hosted on GitHub too.
 
-All cheatsheets are licensed under GPL-2, the same license of cheat shell scripts.
+You can use your own git repository of cheat-sheets. Just edit this
+line of `Rakefile.rb`:
+
+```ruby
+cheatsheet_repo_url = 'git://your-git-repository'
+```
+
+All cheat-sheets are licensed under GPL-2, the same license of cheat shell scripts.
 
 Contribute
 ----------
@@ -39,4 +48,4 @@ Submit and edit cheatsheets in the following ways:
 
 - Fork the wiki repo and send pull requests, just like its code.
 - Edit the wiki through web.
-- Edit the wiki through github api.
+- Edit the wiki through GitHub api.
