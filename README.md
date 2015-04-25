@@ -35,7 +35,7 @@ line of `Rakefile.rb`:
 cheatsheet_repo_url = 'git://your-git-repository'
 ```
 
-All cheat-sheets are licensed under GPL-2, the same license of cheat shell scripts.
+All cheat-sheets are licensed under MIT, the same license of cheat shell scripts.
 
 Contribute
 ----------

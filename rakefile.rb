@@ -1,4 +1,4 @@
-# by Jakukyo Friel <weakish@gmail.com> under GPL-2 
+#!/usr/bin/env rake
 
 # config
 cheatsheet_repo = "~/cheat/wiki/"
@@ -17,9 +17,9 @@ task :install do
   FileList['*.sh'].each do |command|
     output = install_prefix + command.pathmap("%n")
     sh "chmod 755 #{command}; cp #{command} #{output}"
-  end 
+  end
 
-  puts "Please add `export CHEAT_REPO=\"#{cheatsheet_repo}\"` in shell init file, e.g. ~/.bashrc"  
+  puts "Please add `export CHEAT_REPO=\"#{cheatsheet_repo}\"` in shell init file, e.g. ~/.bashrc"
 end
 
 task :default => [:install]

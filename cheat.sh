@@ -1,10 +1,8 @@
 #!/bin/sh
 
-# by Jakukyo Friel <weakish@gmail.com> under GPL-2
-
 ### display a cheatsheet
 
-readonly cheatsheet=$1.md 
+readonly cheatsheet=$1.md
 
 if [ -e $CHEAT_REPO/$cheatsheet ]; then
   less $CHEAT_REPO/$cheatsheet
