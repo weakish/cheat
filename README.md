@@ -8,7 +8,7 @@ A [cheat.rb][] clone in shell (use git repo to store cheatsheets).
 
 Install
 -------
-    
+
     git clone git://github.com/weakish/cheat.git
     cd cheat
     # edit rakefile.rb to suit your needs
