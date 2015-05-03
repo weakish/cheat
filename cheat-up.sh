@@ -8,6 +8,6 @@ git pull && git push
 
 # evernote
 if which gnsync; then
-  gnsync --two-way --path $CHEAT_REPO --mask '*.md' --format markdown \
+  gnsync --two-way true --path $CHEAT_REPO --mask '*.md' --format markdown \
   --logpath $CHEAT_REPO/gnsync.log --notebook cheatsheets
 fi
