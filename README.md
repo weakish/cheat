@@ -7,6 +7,11 @@ A [cheat.rb][] clone in shell (use git repo to store cheatsheets).
 
 It uses git repository instead of central website to store cheat-sheets.
 
+[![xkcd1168]](http://xkcd.com/1168/)
+
+[xkcd1168]: http://imgs.xkcd.com/comics/tar.png "xkcd commic 1168 tar bomb"
+
+
 Install
 -------
 
