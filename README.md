@@ -17,9 +17,13 @@ Install
 
     git clone git://github.com/weakish/cheat.git
     cd cheat
-    # edit rakefile.rb to suit your needs
-    rake install
+    # edit config.mk to suit your needs
+    make
 
+### Uninstall
+
+    cd cheat
+    make uninstall
 
 Usage
 -----
