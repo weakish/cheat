@@ -1,5 +1,8 @@
 #!/bin/sh
 
+set -e
+set -u
+
 ### rename a cheatsheet
 
 cd "$CHEAT_REPO"

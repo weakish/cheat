@@ -1,5 +1,8 @@
 #!/bin/sh
 
+set -e
+set -u
+
 ### synchronize with remote repo
 
 # git

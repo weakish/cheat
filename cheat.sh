@@ -1,5 +1,8 @@
 #!/bin/sh
 
+set -e
+set -u
+
 ### display a cheatsheet
 
 readonly cheatsheet=$1.md
