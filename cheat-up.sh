@@ -3,11 +3,11 @@
 ### synchronize with remote repo
 
 # git
-cd $CHEAT_REPO
+cd "$CHEAT_REPO"
 git pull && git push
 
-# evernote
+# EverNote
 if which gnsync; then
-  gnsync --two-way true --path $CHEAT_REPO --mask '*.md' --format markdown \
-  --logpath $CHEAT_REPO/gnsync.log --notebook cheatsheets
+  gnsync --two-way true --path "$CHEAT_REPO" --mask '*.md' --format markdown \
+  --logpath "$CHEAT_REPO/gnsync.log" --notebook cheatsheets
 fi

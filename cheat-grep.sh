@@ -2,5 +2,5 @@
 
 ### grep for cheatsheet
 
-cd $CHEAT_REPO
+cd "$CHEAT_REPO"
 git grep "$@"
