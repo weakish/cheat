@@ -35,15 +35,11 @@ Or [view it online](https://github.com/weakish/cheat/wiki/cheat).
 Cheat-sheets
 ----------
 
-All cheat-sheets are stored in this git-based [wiki](https://github.com/weakish/cheat/wiki) hosted on GitHub too.
+All cheat-sheets are stored in a git repository.
+The path to the git repository is specified in environment variable `CHEAT_REPO`.
 
-You can use your own git repository of cheat-sheets. Just edit this
-line of `Rakefile.rb`:
-
-```ruby
-cheatsheet_repo_url = 'git://your-git-repository'
-```
-
+There is a git-based [wiki](https://github.com/weakish/cheat/wiki) hosted on GitHub too.
+You may clone it to your machine.
 All cheat-sheets are licensed under 0BSD, the same license of cheat shell scripts.
 
 Contribute
